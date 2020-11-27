@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/estilos.css" />
+    <link rel="stylesheet" href="style/Encomendar.css" />
+    <link rel="stylesheet" href="style/Login.css" />
+    <title>Sabores da Júlia - Encomendar</title>
+  </head>
+  <body>
+    <header>
+      <img
+        id="logo"
+        src="images/Logo 2.PNG"
+        alt="Sabores da Júlia"
+        title="Onde Tudo Sabe Bem!"
+      />
+      <div>
+        <p id="Opções">
+          <img id="help" src="images/help.png" alt="" /><a
+            href="tel:+244929549796"
+          >
+            (+244) 929549796
+          </a>
+        </p>
+      </div>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html"> Início </a></li>
+          <li><a href="index.html #PortFólio"> Portfólio </a></li>
+          <li><a href="index.html #Novidades"> Novidades! </a></li>
+          <li><a href="index.html #Destaques"> Destaques </a></li>
+          <li><a id="activo" href="Encomendar.html"> Encomendas </a></li>
+          <li><a href="Sobre.html"> Sobre </a></li>
+        </ul>
+      </nav>
+      <span id="nome">Sabores da Júlia - Encomendar</span>
+    </header>
+
+    <section class="app">
+      <div class="Publicite"></div>
+      <div>
+        <div class="Encomendas">
+          <p>Encomendar</p>
+          <select name="produto" id="produto">
+            <option value="">Nenhum</option>
+            <option value="Bolos">Bolos</option>
+            <option value="Salgados">Salgados</option>
+            <option value="Doces">Doces</option>
+          </select>
+
+          <p>Quantidade</p>
+          <select name="DS" id="DS" style="display: none">
+            <option value="6">6</option>
+            <option value="12">12</option>
+            <option value="24">24</option>
+            <option value="36">36</option>
+            <option value="48">48</option>
+            <option value="60+">60+</option>
+          </select>
+          <select name="Bolos" id="Bolos" style="display: none">
+            <option value="1">1</option>
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="25">25</option>
+            <option value="25+">25+</option>
+          </select>
+          <input
+            style="display: none"
+            type="number"
+            placeholder="Especificar Quantidade"
+            name="nu+"
+            id="nu"
+            min="1"
+          />
+          <input type="text" placeholder="Produto" />
+          <p>Comprador</p>
+          <input type="text" id="Name" placeholder="Nome Completo" />
+          <input type="tel" id="tel" placeholder="Telefone" />
+
+          <p>Forma de Pagamento</p>
+          <select name="Pag" id="Pag">
+            <option value="Cash">Cash</option>
+            <option value="IBAM">
+              Irene Teixeira Varela IBAM: A006.0006.0000.8715.3964.3016.5 BANCO
+              MILLENIUM ATLÂNTICO
+            </option>
+            <option value="Depósito">
+              Depósito - Nº da Conta: 187153964/30/001 BANCO MILLENIUM ATLÂNTICO
+            </option>
+            <option value="Depósito">
+              Transferência - Irene Teixeira Varela IBAM:
+              A006.0006.0000.8715.3964.3016.5 BANCO MILLENIUM ATLÂNTICO
+            </option>
+          </select>
+          <label for="Incluir">Incluir Entrega</label
+          ><input type="checkbox" name="Incluir" id="Incluir" />
+          <div id="Endereço" style="display: none">
+            <span>Endereço</span>
+            <input type="text" placeholder="Endereço" name="End" id="End" />
+          </div>
+          <div class="botao">
+            <button id="botao">Enviar Pedido</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <p>Meios de Pagamentos</p>
+        <br /><img src="images/f-pay.png" alt="Formas de Pagamentos" />
+      </div>
+      <div>
+        <p>Livro de Reclamações</p>
+        <br /><img src="images/livro.png" alt="Reclamações" />
+      </div>
+      <div id="redes">
+        <p>Redes Sociais</p>
+        <br />
+        <a
+          href="https://free.facebook.com/Sabores%20da%20J%C3%BAlia-344647316161274/?"
+        >
+          <img src="images/Facebook.png" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com/julia_sambaulo/">
+          <img src="images/Instagram.png" alt="Instagram" />
+        </a>
+        <a href="https://snapachat.com/">
+          <img src="images/Snapchat.png" alt="Snapchat" />
+        </a>
+        <a href="https://Skype.com/">
+          <img src="images/Skype.png" alt="Skype" />
+        </a>
+        <a href="https://Twitter.com/">
+          <img src="images/Twitter.png" alt="Twitter" />
+        </a>
+        <a href="https://Whatsapp.com/">
+          <img src="images/Whatsapp_alt.png" alt="Whatsapp_alt" />
+        </a>
+      </div>
+      <div class="time">
+        <span> Sabores da Júlia &copy; <span class="date"> </span> </span>
+      </div>
+    </footer>
+
+    <script src="JS/Encomendar.js"></script>
+    <script src="JS/CopyRigth.js"></script>
+    <script>
+      const div = JSON.parse(localStorage.getItem('div'));
+      console.log(div);
+    </script>
+  </body>
+</html>
