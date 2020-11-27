@@ -1,0 +1,25 @@
+div#Portfólio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+div#Portfolio div {
+  display: flex;
+}
+
+div#Portfólio div img {
+  flex: 1;
+  margin-right: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+div#Portfólio div img:hover {
+  box-shadow: 5px 5px 10px rgb(151, 150, 150);
+  border: rgb(151, 150, 150);
+  margin: 10px;
+}

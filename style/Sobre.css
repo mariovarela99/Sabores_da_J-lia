@@ -1,0 +1,95 @@
+.menus {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  height: 75px;
+}
+
+.menus li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 200px;
+  height: 50px;
+  padding: 5px;
+  background: rgb(254, 173, 51);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 3px;
+}
+
+.menus li:hover {
+  background: rgb(243, 146, 0);
+  color: white;
+}
+
+.on {
+  background: rgb(243, 146, 0);
+  color: white;
+}
+
+#Sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Sobre div {
+  border-radius: 15px;
+  margin: 15px;
+  padding: 15px;
+}
+
+#Who {
+  text-align: center;
+  width: 600px;
+}
+
+#Produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#Places li {
+  list-style-image: url(Location.PNG);
+  list-style-position: inside;
+  text-align: center;
+}
+
+#Lugares h3 {
+  width: 100%;
+}
+
+#Produtos div {
+  text-align: center;
+}
+
+#Local {
+  text-align: center;
+}
+
+#Produtos div {
+  width: 300px;
+}
+
+h3 {
+  text-align: center;
+  width: 100%;
+  font-size: 20pt;
+  color: rgb(254, 173, 51);
+}
+
+h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 15pt;
+  color: rgb(254, 173, 51);
+}

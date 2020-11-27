@@ -1,0 +1,36 @@
+#FP {
+  background: #fff;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#profile {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 30pt;
+}
+
+#Editar {
+  margin: 10px;
+}
+
+#Dados div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+#Dados > a {
+  margin-left: 25px;
+}
+
+#Dados > hr {
+  background: #feae33;
+  height: 1px;
+}

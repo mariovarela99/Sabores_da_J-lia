@@ -1,0 +1,64 @@
+div.Encomendas {
+  background: #fff;
+  box-shadow: 1px 3px 3px rgb(155, 151, 151);
+  width: 350px;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+div.Encomendas input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #b1a6a6;
+  border: none;
+  border-bottom: 1px solid #b1a6a6;
+}
+
+div.Encomendas input#Incluir {
+  width: auto;
+  height: auto;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+div.Encomendas p {
+  font-size: 15pt;
+  color: #fead33;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: nowrap;
+}
+
+div.Encomendas select#Pag {
+  transition: 5s;
+  width: 300px;
+}
+
+div.Encomendas label {
+  margin-right: 5px;
+  text-align: center;
+}
+
+div.Encomendas input#incluir:checked {
+  background: #fead33;
+}
+
+div.Publicite {
+  margin: 15px;
+  width: 350px;
+  height: 500px;
+  background-color: #fead33;
+}
+
+section.app {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}

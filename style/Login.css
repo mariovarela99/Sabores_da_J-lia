@@ -1,0 +1,230 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font: normal 12pt 'Myriad Pro', 'Myriad Hebrew', 'Myriad Arabic';
+  list-style: none;
+  text-decoration: none;
+}
+
+@keyframes Virdecima {
+  from {
+    top: -1000px;
+  }
+  to {
+    top: 92px;
+  }
+}
+
+@keyframes Virdelado {
+  from {
+    left: -1500px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+input,
+button {
+  outline: 0;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#X {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+#Detras #Fechar {
+  height: 100%;
+}
+
+#Detras #Fechar button {
+  cursor: pointer;
+  margin: 15px 0px 0px 15px;
+}
+
+#Detras {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.Defrente {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 200px;
+}
+
+.Defrente aside {
+  width: 250px;
+  height: 350px;
+  border: 1px solid #fff;
+  margin: 10px;
+  padding: 10px;
+  overflow: auto;
+}
+
+.Defrente div {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  border-radius: 10px;
+  color: #feae33;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+#imagem {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  animation-name: Virdelado;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+
+#res {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 450px;
+  padding: 20px;
+  flex-wrap: wrap;
+  background-color: white;
+  box-shadow: 3px 3px 10px #6f6666;
+  opacity: 1;
+  border-radius: 10px;
+  text-align: center;
+  overflow: auto;
+  position: absolute;
+  animation-name: Virdecima;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+
+#telemail,
+#senha,
+#name,
+#Sobrename {
+  border: none;
+  margin: 5px;
+  padding: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom: 1px solid rgb(90, 89, 89);
+  border-left: 1px solid rgb(90, 89, 89);
+  width: 200px;
+  height: 30px;
+}
+
+#botao {
+  cursor: pointer;
+  transition: background 0.5s, color 0.5s, border 0.5s;
+  border-radius: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  color: #ffffff;
+  background: #feae33;
+  border: 1px solid #feae33;
+  width: 200px;
+}
+
+#botao:hover {
+  background-color: white;
+  border: 1px #feae33 solid;
+  color: #feae33;
+}
+
+div.botao {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.sign {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.sign p {
+  color: #feae33;
+  font-size: 13px;
+}
+
+div.sign a {
+  color: rgb(55, 55, 175);
+  font-size: 13px;
+  margin: 10px;
+}
+
+#FL {
+  font-size: 20pt;
+  color: #feae33;
+  margin: 0px 0px 5px 0;
+  width: 100%;
+}
+
+#Opções {
+  margin-bottom: 10px;
+}
+
+#Escolha {
+  margin: 20px;
+  background: #feae33;
+}
+
+#warn {
+  color: #f00;
+}
+
+section div input {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 340px) {
+  #res {
+    width: 100%;
+    height: 100%;
+  }
+}
