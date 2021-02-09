@@ -1,10 +1,15 @@
 * {
   margin: 0px;
   padding: 0px;
-  font: normal 14pt 'Myriad Pro', 'Myriad Hebrew', 'Myriad Arabic';
+  font: normal 14pt "Myriad Pro", "Myriad Hebrew", "Myriad Arabic", "Open Sans",
+    sans-serif;
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 input,
@@ -43,6 +48,7 @@ header {
 header a {
   color: #772005;
 }
+
 header div {
   margin: 10px;
 }
@@ -126,7 +132,7 @@ nav img {
 
 #Novidades h3 {
   font: 20pt bold;
-  font-family: 'Myriad Pro';
+  font-family: "Myriad Pro";
 }
 
 #Novidades div {
